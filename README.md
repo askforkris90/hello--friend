@@ -1,4 +1,4 @@
-# Expired-hey-friend
+# friend-hello
 
 This repository uses [Ruff](https://docs.astral.sh/ruff/) for Python linting and formatting.
 
