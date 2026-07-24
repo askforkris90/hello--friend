@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>friend-hello</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 720px;
+      margin: 60px auto;
+      padding: 0 20px;
+      color: #333;
+    }
+    h1 { color: #2c7be5; }
+    code {
+      background: #f4f4f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.95em;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 12px 16px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>friend-hello</h1>
+  <p>This repository uses <a href="https://docs.astral.sh/ruff/">Ruff</a> for Python linting and formatting.</p>
+
+  <h2>Running locally</h2>
+  <p>Install Ruff:</p>
+  <pre><code>pip install ruff</code></pre>
+
+  <p>Check formatting:</p>
+  <pre><code>ruff format --check .</code></pre>
+
+  <p>Apply formatting:</p>
+  <pre><code>ruff format .</code></pre>
+
+  <p>Run linter:</p>
+  <pre><code>ruff check .</code></pre>
+
+  <p>Auto-fix lint issues:</p>
+  <pre><code>ruff check --fix .</code></pre>
+
+  <h2>CI</h2>
+  <p>A GitHub Actions workflow (<code>.github/workflows/ruff.yml</code>) runs <code>ruff format --check</code> and <code>ruff check</code> on every push and pull request.</p>
+</body>
+</html>
